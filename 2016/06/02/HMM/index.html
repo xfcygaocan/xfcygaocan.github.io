@@ -10,29 +10,48 @@
     <meta name="author" content="xfcygaocan">
   
   
-    <meta name="description" content="模型定义HMM五元组观察序列集合状态集合状态转移矩阵输出观察序列概率初始状态概率
-三个假设">
+    <meta name="description" content="概率图
+模型定义HMM五元组观察序列集合状态集合状态转移矩阵输出观察序列概率初始状态概率
+状态序列观察序列模型假设马尔科夫性假设
+稳定性假设与无关，即
+观察序列独立性假设">
   
-  <meta name="description" content="模型定义HMM五元组观察序列集合状态集合状态转移矩阵输出观察序列概率初始状态概率
-三个假设">
+  <meta name="description" content="概率图
+模型定义HMM五元组观察序列集合状态集合状态转移矩阵输出观察序列概率初始状态概率
+状态序列观察序列模型假设马尔科夫性假设
+稳定性假设与无关，即
+观察序列独立性假设">
 <meta property="og:type" content="article">
 <meta property="og:title" content="HMM模型">
 <meta property="og:url" content="http://yoursite.com/2016/06/02/HMM/index.html">
 <meta property="og:site_name" content="learn">
-<meta property="og:description" content="模型定义HMM五元组观察序列集合状态集合状态转移矩阵输出观察序列概率初始状态概率
-三个假设">
+<meta property="og:description" content="概率图
+模型定义HMM五元组观察序列集合状态集合状态转移矩阵输出观察序列概率初始状态概率
+状态序列观察序列模型假设马尔科夫性假设
+稳定性假设与无关，即
+观察序列独立性假设">
 <meta property="og:image" content="http://www.forkosh.com/mathtex.cgi? ">
+<meta property="og:image" content="http://yoursite.com/./hmm_pic/78AF14E6-7316-4925-A7F8-0512FD668E7F.png">
 <meta property="og:image" content="http://www.forkosh.com/mathtex.cgi? \left ( X,Y,A,B,\pi  \right )">
 <meta property="og:image" content="http://www.forkosh.com/mathtex.cgi? X=\left \{ x_{1},x_{2},...,x_{n} \right \}">
 <meta property="og:image" content="http://www.forkosh.com/mathtex.cgi? Y=\left \{ y_{1},y_{2},...,y_{n} \right \}">
 <meta property="og:image" content="http://www.forkosh.com/mathtex.cgi? A=\left \{ a_{ij}|a_{ij}=P\left ( s_{t}=y_{j}|s_{t-1}=y_{i} \right ) \right \}">
 <meta property="og:image" content="http://www.forkosh.com/mathtex.cgi? B=\left \{ b_{jk}|b_{jk}=P\left ( o_{t}=x_{k}|o_{t-1}=x_{j} \right ) \right \}">
 <meta property="og:image" content="http://www.forkosh.com/mathtex.cgi? \pi_{i} =P(s_{1}=y_{i})">
-<meta property="og:updated_time" content="2016-06-02T10:58:33.000Z">
+<meta property="og:image" content="http://www.forkosh.com/mathtex.cgi? S=\left \{s_{1},s_{2},...,s_{T}\right \},s_{i}\in Y">
+<meta property="og:image" content="http://www.forkosh.com/mathtex.cgi? O=\left \{o_{1},o_{2},...,o_{T}\right \},o_{i}\in X">
+<meta property="og:image" content="http://www.forkosh.com/mathtex.cgi? P(s_{t}|s_{1},s_{2},...,s_{t-1})=P(s_{t}|s_{t-1})">
+<meta property="og:image" content="http://www.forkosh.com/mathtex.cgi? a_{ij}">
+<meta property="og:image" content="http://www.forkosh.com/mathtex.cgi? t">
+<meta property="og:image" content="http://www.forkosh.com/mathtex.cgi? a_{ij}=P\left ( s_{t}=y_{j}|s_{t-1}=y_{i} \right)">
+<meta property="og:updated_time" content="2016-06-02T11:19:52.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="HMM模型">
-<meta name="twitter:description" content="模型定义HMM五元组观察序列集合状态集合状态转移矩阵输出观察序列概率初始状态概率
-三个假设">
+<meta name="twitter:description" content="概率图
+模型定义HMM五元组观察序列集合状态集合状态转移矩阵输出观察序列概率初始状态概率
+状态序列观察序列模型假设马尔科夫性假设
+稳定性假设与无关，即
+观察序列独立性假设">
 <meta name="twitter:image" content="http://www.forkosh.com/mathtex.cgi? ">
   
   
@@ -83,8 +102,11 @@
   <div class="entry">
     
       <p><img src="http://www.forkosh.com/mathtex.cgi? "></p>
-<h2 id="模型定义"><a href="#模型定义" class="headerlink" title="模型定义"></a>模型定义</h2><p>HMM五元组<img src="http://www.forkosh.com/mathtex.cgi? \left ( X,Y,A,B,\pi  \right )"><br>观察序列集合<img src="http://www.forkosh.com/mathtex.cgi? X=\left \{ x_{1},x_{2},...,x_{n} \right \}"><br>状态集合<img src="http://www.forkosh.com/mathtex.cgi? Y=\left \{ y_{1},y_{2},...,y_{n} \right \}"><br>状态转移矩阵<img src="http://www.forkosh.com/mathtex.cgi? A=\left \{ a_{ij}|a_{ij}=P\left ( s_{t}=y_{j}|s_{t-1}=y_{i} \right ) \right \}"><br>输出观察序列概率<img src="http://www.forkosh.com/mathtex.cgi? B=\left \{ b_{jk}|b_{jk}=P\left ( o_{t}=x_{k}|o_{t-1}=x_{j} \right ) \right \}"><br>初始状态概率<img src="http://www.forkosh.com/mathtex.cgi? \pi_{i} =P(s_{1}=y_{i})"></p>
-<h2 id="三个假设"><a href="#三个假设" class="headerlink" title="三个假设"></a>三个假设</h2>
+<h4 id="概率图"><a href="#概率图" class="headerlink" title="概率图"></a>概率图</h4><p><img src="./hmm_pic/78AF14E6-7316-4925-A7F8-0512FD668E7F.png" alt="78AF14E6-7316-4925-A7F8-0512FD668E7F.png"></p>
+<h4 id="模型定义"><a href="#模型定义" class="headerlink" title="模型定义"></a>模型定义</h4><h6 id="HMM五元组"><a href="#HMM五元组" class="headerlink" title="HMM五元组"></a>HMM五元组<img src="http://www.forkosh.com/mathtex.cgi? \left ( X,Y,A,B,\pi  \right )"></h6><p>观察序列集合<img src="http://www.forkosh.com/mathtex.cgi? X=\left \{ x_{1},x_{2},...,x_{n} \right \}"><br>状态集合<img src="http://www.forkosh.com/mathtex.cgi? Y=\left \{ y_{1},y_{2},...,y_{n} \right \}"><br>状态转移矩阵<img src="http://www.forkosh.com/mathtex.cgi? A=\left \{ a_{ij}|a_{ij}=P\left ( s_{t}=y_{j}|s_{t-1}=y_{i} \right ) \right \}"><br>输出观察序列概率<img src="http://www.forkosh.com/mathtex.cgi? B=\left \{ b_{jk}|b_{jk}=P\left ( o_{t}=x_{k}|o_{t-1}=x_{j} \right ) \right \}"><br>初始状态概率<img src="http://www.forkosh.com/mathtex.cgi? \pi_{i} =P(s_{1}=y_{i})"></p>
+<h6 id="状态序列"><a href="#状态序列" class="headerlink" title="状态序列"></a>状态序列<img src="http://www.forkosh.com/mathtex.cgi? S=\left \{s_{1},s_{2},...,s_{T}\right \},s_{i}\in Y"></h6><h6 id="观察序列"><a href="#观察序列" class="headerlink" title="观察序列"></a>观察序列<img src="http://www.forkosh.com/mathtex.cgi? O=\left \{o_{1},o_{2},...,o_{T}\right \},o_{i}\in X"></h6><h4 id="模型假设"><a href="#模型假设" class="headerlink" title="模型假设"></a>模型假设</h4><h6 id="马尔科夫性假设"><a href="#马尔科夫性假设" class="headerlink" title="马尔科夫性假设"></a>马尔科夫性假设</h6><p><img src="http://www.forkosh.com/mathtex.cgi? P(s_{t}|s_{1},s_{2},...,s_{t-1})=P(s_{t}|s_{t-1})"></p>
+<h6 id="稳定性假设"><a href="#稳定性假设" class="headerlink" title="稳定性假设"></a>稳定性假设</h6><p><img src="http://www.forkosh.com/mathtex.cgi? a_{ij}">与<img src="http://www.forkosh.com/mathtex.cgi? t">无关，即<img src="http://www.forkosh.com/mathtex.cgi? a_{ij}=P\left ( s_{t}=y_{j}|s_{t-1}=y_{i} \right)"></p>
+<h6 id="观察序列独立性假设"><a href="#观察序列独立性假设" class="headerlink" title="观察序列独立性假设"></a>观察序列独立性假设</h6>
     
   </div>
   <footer>
@@ -98,7 +120,7 @@
 
 
 <section id="comment">
-  <h1 class="title">Comments</h1>
+  <h1 class="title">评论</h1>
   <div class="ds-thread" data-title="HMM模型">
   </div>
 </section>
