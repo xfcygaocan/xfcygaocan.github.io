@@ -58,52 +58,6 @@
   <header>
     
       <div class="icon"></div>
-      <a href="/2016/06/02/HMM/">
-  <time datetime="2016-06-02T09:13:15.000Z">
-    2016-06-02
-  </time>
-</a>
-    
-    
-  
-    <h1 class="title"><a href="/2016/06/02/HMM/">HMM模型</a></h1>
-  
-
-  </header>
-  
-  <div class="entry">
-    
-      <p>$$\frac{\partial u}{\partial t}<br>= h^2 \left( \frac{\partial^2 u}{\partial x^2} +<br>\frac{\partial^2 u}{\partial y^2} +<br>\frac{\partial^2 u}{\partial z^2}\right)$$</p>
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-
-<p>$$$(A,B,\pi)$$$<br>$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$<br><img src="http://www.forkosh.com/mathtex.cgi? "></p>
-<h2 id="&#x6982;&#x7387;&#x56FE;"><a href="#&#x6982;&#x7387;&#x56FE;" class="headerlink" title="&#x6982;&#x7387;&#x56FE;"></a>&#x6982;&#x7387;&#x56FE;</h2><p><img src="/2016/06/02/HMM/78AF14E6-7316-4925-A7F8-0512FD668E7F.png" alt="78AF14E6-7316-4925-A7F8-0512FD668E7F.png"></p>
-<h2 id="&#x6A21;&#x578B;&#x5B9A;&#x4E49;"><a href="#&#x6A21;&#x578B;&#x5B9A;&#x4E49;" class="headerlink" title="&#x6A21;&#x578B;&#x5B9A;&#x4E49;"></a>&#x6A21;&#x578B;&#x5B9A;&#x4E49;</h2><h6 id="HMM&#x4E94;&#x5143;&#x7EC4;"><a href="#HMM&#x4E94;&#x5143;&#x7EC4;" class="headerlink" title="HMM&#x4E94;&#x5143;&#x7EC4;"></a>HMM&#x4E94;&#x5143;&#x7EC4;<img src="http://www.forkosh.com/mathtex.cgi? \left ( X,Y,A,B,\pi  \right )"></h6><p>&#x89C2;&#x5BDF;&#x5E8F;&#x5217;&#x96C6;&#x5408;<img src="http://www.forkosh.com/mathtex.cgi? X=\left \{ x_{1},x_{2},...,x_{n} \right \}"><br>&#x72B6;&#x6001;&#x96C6;&#x5408;<img src="http://www.forkosh.com/mathtex.cgi? Y=\left \{ y_{1},y_{2},...,y_{n} \right \}"><br>&#x72B6;&#x6001;&#x8F6C;&#x79FB;&#x77E9;&#x9635;<img src="http://www.forkosh.com/mathtex.cgi? A=\left \{ a_{ij}|a_{ij}=P\left ( s_{t}=y_{j}|s_{t-1}=y_{i} \right ) \right \}"><br>&#x8F93;&#x51FA;&#x89C2;&#x5BDF;&#x5E8F;&#x5217;&#x6982;&#x7387;<img src="http://www.forkosh.com/mathtex.cgi? B=\left \{ b_{jk}|b_{jk}=P\left ( o_{t}=x_{k}|o_{t-1}=x_{j} \right ) \right \}"><br>&#x521D;&#x59CB;&#x72B6;&#x6001;&#x6982;&#x7387;<img src="http://www.forkosh.com/mathtex.cgi? \pi_{i} =P(s_{1}=y_{i})"></p>
-<h6 id="&#x72B6;&#x6001;&#x5E8F;&#x5217;"><a href="#&#x72B6;&#x6001;&#x5E8F;&#x5217;" class="headerlink" title="&#x72B6;&#x6001;&#x5E8F;&#x5217;"></a>&#x72B6;&#x6001;&#x5E8F;&#x5217;<img src="http://www.forkosh.com/mathtex.cgi? S=\left \{s_{1},s_{2},...,s_{T}\right \},s_{i}\in Y"></h6><h6 id="&#x89C2;&#x5BDF;&#x5E8F;&#x5217;"><a href="#&#x89C2;&#x5BDF;&#x5E8F;&#x5217;" class="headerlink" title="&#x89C2;&#x5BDF;&#x5E8F;&#x5217;"></a>&#x89C2;&#x5BDF;&#x5E8F;&#x5217;<img src="http://www.forkosh.com/mathtex.cgi? O=\left \{o_{1},o_{2},...,o_{T}\right \},o_{i}\in X"></h6><h2 id="&#x6A21;&#x578B;&#x5047;&#x8BBE;"><a href="#&#x6A21;&#x578B;&#x5047;&#x8BBE;" class="headerlink" title="&#x6A21;&#x578B;&#x5047;&#x8BBE;"></a>&#x6A21;&#x578B;&#x5047;&#x8BBE;</h2><h6 id="&#x9A6C;&#x5C14;&#x79D1;&#x592B;&#x6027;&#x5047;&#x8BBE;"><a href="#&#x9A6C;&#x5C14;&#x79D1;&#x592B;&#x6027;&#x5047;&#x8BBE;" class="headerlink" title="&#x9A6C;&#x5C14;&#x79D1;&#x592B;&#x6027;&#x5047;&#x8BBE;"></a>&#x9A6C;&#x5C14;&#x79D1;&#x592B;&#x6027;&#x5047;&#x8BBE;</h6><p><img src="http://www.forkosh.com/mathtex.cgi? P(s_{t}|s_{1},s_{2},...,s_{t-1})=P(s_{t}|s_{t-1})"></p>
-<h6 id="&#x7A33;&#x5B9A;&#x6027;&#x5047;&#x8BBE;"><a href="#&#x7A33;&#x5B9A;&#x6027;&#x5047;&#x8BBE;" class="headerlink" title="&#x7A33;&#x5B9A;&#x6027;&#x5047;&#x8BBE;"></a>&#x7A33;&#x5B9A;&#x6027;&#x5047;&#x8BBE;</h6><p><img src="http://www.forkosh.com/mathtex.cgi? a_{ij}">&#x4E0E;<img src="http://www.forkosh.com/mathtex.cgi? t">&#x65E0;&#x5173;&#xFF0C;&#x5373;<img src="http://www.forkosh.com/mathtex.cgi? a_{ij}=P\left ( s_{t}=y_{j}|s_{t-1}=y_{i} \right)"></p>
-<h6 id="&#x89C2;&#x5BDF;&#x5E8F;&#x5217;&#x72EC;&#x7ACB;&#x6027;&#x5047;&#x8BBE;"><a href="#&#x89C2;&#x5BDF;&#x5E8F;&#x5217;&#x72EC;&#x7ACB;&#x6027;&#x5047;&#x8BBE;" class="headerlink" title="&#x89C2;&#x5BDF;&#x5E8F;&#x5217;&#x72EC;&#x7ACB;&#x6027;&#x5047;&#x8BBE;"></a>&#x89C2;&#x5BDF;&#x5E8F;&#x5217;&#x72EC;&#x7ACB;&#x6027;&#x5047;&#x8BBE;</h6><p><img src="http://www.forkosh.com/mathtex.cgi? P(O)=p(o_{1})p(o_{2})...p(o_{T})"></p>
-<h2 id="&#x4E09;&#x5927;&#x95EE;&#x9898;"><a href="#&#x4E09;&#x5927;&#x95EE;&#x9898;" class="headerlink" title="&#x4E09;&#x5927;&#x95EE;&#x9898;"></a>&#x4E09;&#x5927;&#x95EE;&#x9898;</h2><h6 id="prediction"><a href="#prediction" class="headerlink" title="prediction"></a>prediction</h6><p>&#x5DF2;&#x77E5;<img src="http://www.forkosh.com/mathtex.cgi? \mu=(A,B,\pi),O=\left \{o_{1},o_{2},...,o_{T}\right \},o_{i}\in X">&#xFF0C;&#x6C42;<img src="http://www.forkosh.com/mathtex.cgi? P(O|\mu)"></p>
-<h6 id="explaining"><a href="#explaining" class="headerlink" title="explaining"></a>explaining</h6><p>&#x5DF2;&#x77E5;<img src="http://www.forkosh.com/mathtex.cgi? \mu=(A,B,\pi),O=\left \{o_{1},o_{2},...,o_{T}\right \},o_{i}\in X">&#xFF0C;&#x6C42;<img src="http://www.forkosh.com/mathtex.cgi? S^{*}=\underset{S}{argmax} P(S|O,\mu)"></p>
-<h6 id="learning"><a href="#learning" class="headerlink" title="learning"></a>learning</h6><p>&#x5DF2;&#x77E5;<img src="http://www.forkosh.com/mathtex.cgi? O=\left \{o_{1},o_{2},...,o_{T}\right \},o_{i}\in X">&#xFF0C;&#x6C42;<img src="http://www.forkosh.com/mathtex.cgi? \mu^{*}=\underset{u}{argmax} P(u|O)"></p>
-<p>##prediction<br><img src="http://www.forkosh.com/mathtex.cgi? "></p>
-
-    
-  </div>
-  <footer class="end-sep">
-    
-      
-      
-    
-    <div class="clearfix"></div>
-  </footer>
-</article>
-
-
-  
-    <article class="post">
-  <header>
-    
-      <div class="icon"></div>
       <a href="/2016/06/02/HMM/HMM/">
   <time datetime="2016-06-02T09:13:15.000Z">
     2016-06-02
@@ -150,7 +104,7 @@
   <header>
     
       <div class="icon"></div>
-      <a href="/2016/04/04/hello-world/">
+      <a href="/2016/04/04/hello-world/hello-world/">
   <time datetime="2016-04-04T07:44:20.000Z">
     2016-04-04
   </time>
@@ -158,7 +112,7 @@
     
     
   
-    <h1 class="title"><a href="/2016/04/04/hello-world/">hello world</a></h1>
+    <h1 class="title"><a href="/2016/04/04/hello-world/hello-world/">hello world</a></h1>
   
 
   </header>
