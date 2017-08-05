@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 个人博客搭建及使用
+published: true
 date: 2016-02-15 15:32:24.000000000 +09:00
 ---
 ==========================分割线==========================
@@ -110,13 +111,16 @@ $$
 
 ### Reference
 
-[用Markdown写blog的常用操作][1]  
-[Jekyll中使用MathJax][2]  
 [Jekyll中文文档][3]  
-[用Jekyll搭建的Github Pages个人博客] [4]
+[Jekyll中使用MathJax][2]  
+[用Markdown写blog的常用操作][1]  
+[48 个你需要知道的 Jekyll 使用技巧] [5]  
+[用Jekyll搭建的Github Pages个人博客] [4]  
 
 <!-- 链接 -->
 [1]: http://www.cnblogs.com/mo-wang/p/5117819.html
 [2]: http://pkuwwt.github.io/linux/2013-12-03-jekyll-using-mathjax/
 [3]: http://jekyllcn.com/
 [4]: http://louisly.com/2016/04/used-jekyll-to-create-my-github-blog/
+[5]: https://crispgm.com/page/48-tips-for-jekyll-you-should-know.html
+
