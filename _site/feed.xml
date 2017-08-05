@@ -5,8 +5,8 @@
     <description>welcome come to my home.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 06 Aug 2017 01:46:18 +0800</pubDate>
-    <lastBuildDate>Sun, 06 Aug 2017 01:46:18 +0800</lastBuildDate>
+    <pubDate>Sun, 06 Aug 2017 02:38:14 +0800</pubDate>
+    <lastBuildDate>Sun, 06 Aug 2017 02:38:14 +0800</lastBuildDate>
     <generator>Jekyll v3.4.0</generator>
     
       <item>
@@ -77,103 +77,86 @@
       <item>
         <title>Test Post</title>
         <description>&lt;h3 id=&quot;解析器&quot;&gt;解析器&lt;/h3&gt;
-&lt;h4 id=&quot;添加markdown解析器&quot;&gt;添加markdown解析器&lt;/h4&gt;
-&lt;p&gt;在_config.yml里添加kramdown&lt;/p&gt;
-&lt;h4 id=&quot;测试基本用法&quot;&gt;测试基本用法&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;黑体&lt;/strong&gt;  &lt;em&gt;斜体&lt;/em&gt;  &lt;del&gt; 删除体 &lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;添加markdown解析器，在_config.yml里添加&lt;/p&gt;
 
-&lt;p&gt;分隔线&lt;/p&gt;
-&lt;hr /&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;markdown: kramdown&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;hr /&gt;
+&lt;h3 id=&quot;字体&quot;&gt;字体&lt;/h3&gt;
 
-&lt;hr /&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;gs&quot;&gt;**黑体**&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;hr /&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;ge&quot;&gt;*斜体*&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;hr /&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;del&amp;gt;&lt;/span&gt; 删除体 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/del&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;引用&lt;/p&gt;
+&lt;h3 id=&quot;分隔线&quot;&gt;分隔线&lt;/h3&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;这里是引用&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;p&quot;&gt;* * *&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;列表&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;p&quot;&gt;*****&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;p&quot;&gt;- - -&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;p&quot;&gt;---------------------------------------&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;引用&quot;&gt;引用&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;gt&quot;&gt;&amp;gt; 这里是引用&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;列表&quot;&gt;列表&lt;/h3&gt;
 &lt;p&gt;有序列表项前加数字和点（注意前后面要空格）&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;列表1&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;列表2&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;p&quot;&gt;1.&lt;/span&gt; 列表1
+&lt;span class=&quot;p&quot;&gt;
+2.&lt;/span&gt; 列表2&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;表格&lt;/p&gt;
+&lt;h3 id=&quot;表格&quot;&gt;表格&lt;/h3&gt;
 
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;水果名称&lt;/th&gt;
-      &lt;th style=&quot;text-align: right&quot;&gt;价格（元/500克）&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;苹果&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;3.2&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;香蕉&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;4.5&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;|水果名称|价格（元/500克）|
+|:-------:|-----:|
+|苹果|3.2|
+|香蕉|4.5|&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h3 id=&quot;code-snippets&quot;&gt;code snippets&lt;/h3&gt;
+&lt;h3 id=&quot;插入代码&quot;&gt;插入代码&lt;/h3&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'hello world'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;figure&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;highlight&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;pre&amp;gt;&amp;lt;code&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;language-python&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data-lang=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;python&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;k&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;def&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;nf&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;main&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;p&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;():&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;k&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;print&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;p&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;(&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;s&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;'hello world'&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;p&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;)&lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&amp;lt;/code&amp;gt;&amp;lt;/pre&amp;gt;&amp;lt;/figure&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h3 id=&quot;math-type&quot;&gt;math type&lt;/h3&gt;
-&lt;h4 id=&quot;行内&quot;&gt;行内&lt;/h4&gt;
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;E=mc^2&lt;/script&gt;&lt;/p&gt;
+&lt;h3 id=&quot;数学公式&quot;&gt;数学公式&lt;/h3&gt;
+&lt;p&gt;行内&lt;/p&gt;
 
-&lt;h4 id=&quot;行间&quot;&gt;行间&lt;/h4&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;$$E=mc^2$$&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;a_{i}&lt;/script&gt;
+&lt;p&gt;行间&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;$$
+a_{i}
+$$&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h3 id=&quot;插入图片&quot;&gt;插入图片&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;.png&quot; alt=&quot;test&quot; title=&quot;Title&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;.png&quot; height=&quot;100%&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;p&quot;&gt;![&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;.png&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;&quot;Title&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;.png&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;height=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;100%&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;100%&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h3 id=&quot;脚注&quot;&gt;脚注&lt;/h3&gt;
-&lt;p&gt;比如&lt;sup id=&quot;fnref:f1&quot;&gt;&lt;a href=&quot;#fn:f1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;比如&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;^f1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;^f1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;脚注1&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h3 id=&quot;测试链接&quot;&gt;测试链接&lt;/h3&gt;
-&lt;h4 id=&quot;第一种&quot;&gt;第一种&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;&lt;/p&gt;
-&lt;h4 id=&quot;第二种&quot;&gt;第二种&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.baidu.com&quot;&gt;baidu&lt;/a&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;Jekyll’s GitHub repo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;   &lt;span class=&quot;sx&quot;&gt;https://github.com/jekyll/jekyll&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;baidu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;sx&quot;&gt;http://www.baidu.com&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h3 id=&quot;参考文献&quot;&gt;参考文献&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.cnblogs.com/mo-wang/p/5117819.html&quot;&gt;用Markdown写blog的常用操作&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;http://jekyllcn.com/&quot;&gt;Jekyll 中文文档&lt;/a&gt;
+&lt;a href=&quot;http://www.cnblogs.com/mo-wang/p/5117819.html&quot;&gt;用Markdown写blog的常用操作&lt;/a&gt;
 &lt;a href=&quot;http://pkuwwt.github.io/linux/2013-12-03-jekyll-using-mathjax/&quot;&gt;Jekyll中使用MathJax&lt;/a&gt;&lt;/p&gt;
 
 &lt;!-- 链接 --&gt;
-&lt;!-- 脚注 --&gt;
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:f1&quot;&gt;
-      &lt;p&gt;脚注1&amp;nbsp;&lt;a href=&quot;#fnref:f1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
 </description>
         <pubDate>Mon, 15 Feb 2016 14:32:24 +0800</pubDate>
         <link>http://localhost:4000/2016/02/Test-Post/</link>

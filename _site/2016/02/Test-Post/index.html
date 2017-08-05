@@ -7,16 +7,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   <title>Test Post</title>
-  <meta name="description" content="解析器添加markdown解析器在_config.yml里添加kramdown测试基本用法黑体  斜体   删除体 ">
+  <meta name="description" content="解析器添加markdown解析器，在_config.yml里添加markdown: kramdown">
   <meta name="author" content="Wei Wang">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Test Post">
-  <meta name="twitter:description" content="解析器添加markdown解析器在_config.yml里添加kramdown测试基本用法黑体  斜体   删除体 ">
+  <meta name="twitter:description" content="解析器添加markdown解析器，在_config.yml里添加markdown: kramdown">
 
   <meta property="og:type" content="article">
   <meta property="og:title" content="Test Post">
-  <meta property="og:description" content="解析器添加markdown解析器在_config.yml里添加kramdown测试基本用法黑体  斜体   删除体 ">
+  <meta property="og:description" content="解析器添加markdown解析器，在_config.yml里添加markdown: kramdown">
 
   <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
   <link href="/assets/images/favicon.png" rel="shortcut icon" type="image/png">
@@ -164,103 +164,86 @@
 
   <section class="post">
     <h3 id="解析器">解析器</h3>
-<h4 id="添加markdown解析器">添加markdown解析器</h4>
-<p>在_config.yml里添加kramdown</p>
-<h4 id="测试基本用法">测试基本用法</h4>
-<p><strong>黑体</strong>  <em>斜体</em>  <del> 删除体 </del></p>
+<p>添加markdown解析器，在_config.yml里添加</p>
 
-<p>分隔线</p>
-<hr />
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown">markdown: kramdown</code></pre></figure>
 
-<hr />
+<h3 id="字体">字体</h3>
 
-<hr />
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="gs">**黑体**</span></code></pre></figure>
 
-<hr />
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="ge">*斜体*</span></code></pre></figure>
 
-<hr />
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="nt">&lt;del&gt;</span> 删除体 <span class="nt">&lt;/del&gt;</span></code></pre></figure>
 
-<p>引用</p>
+<h3 id="分隔线">分隔线</h3>
 
-<blockquote>
-  <p>这里是引用</p>
-</blockquote>
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="p">* * *</span></code></pre></figure>
 
-<p>列表</p>
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="p">*****</span></code></pre></figure>
 
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="p">- - -</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="p">---------------------------------------</span></code></pre></figure>
+
+<h3 id="引用">引用</h3>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="gt">&gt; 这里是引用</span></code></pre></figure>
+
+<h3 id="列表">列表</h3>
 <p>有序列表项前加数字和点（注意前后面要空格）</p>
 
-<ol>
-  <li>
-    <p>列表1</p>
-  </li>
-  <li>
-    <p>列表2</p>
-  </li>
-</ol>
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="p">1.</span> 列表1
+<span class="p">
+2.</span> 列表2</code></pre></figure>
 
-<p>表格</p>
+<h3 id="表格">表格</h3>
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: center">水果名称</th>
-      <th style="text-align: right">价格（元/500克）</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center">苹果</td>
-      <td style="text-align: right">3.2</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">香蕉</td>
-      <td style="text-align: right">4.5</td>
-    </tr>
-  </tbody>
-</table>
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown">|水果名称|价格（元/500克）|
+|:-------:|-----:|
+|苹果|3.2|
+|香蕉|4.5|</code></pre></figure>
 
-<h3 id="code-snippets">code snippets</h3>
+<h3 id="插入代码">插入代码</h3>
 
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
-    <span class="k">print</span><span class="p">(</span><span class="s">'hello world'</span><span class="p">)</span></code></pre></figure>
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="nt">&lt;figure</span> <span class="na">class=</span><span class="s">"highlight"</span><span class="nt">&gt;&lt;pre&gt;&lt;code</span> <span class="na">class=</span><span class="s">"language-python"</span> <span class="na">data-lang=</span><span class="s">"python"</span><span class="nt">&gt;&lt;span</span> <span class="na">class=</span><span class="s">"k"</span><span class="nt">&gt;</span>def<span class="nt">&lt;/span&gt;</span> <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"nf"</span><span class="nt">&gt;</span>main<span class="nt">&lt;/span&gt;&lt;span</span> <span class="na">class=</span><span class="s">"p"</span><span class="nt">&gt;</span>():<span class="nt">&lt;/span&gt;</span>
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"k"</span><span class="nt">&gt;</span>print<span class="nt">&lt;/span&gt;&lt;span</span> <span class="na">class=</span><span class="s">"p"</span><span class="nt">&gt;</span>(<span class="nt">&lt;/span&gt;&lt;span</span> <span class="na">class=</span><span class="s">"s"</span><span class="nt">&gt;</span>'hello world'<span class="nt">&lt;/span&gt;&lt;span</span> <span class="na">class=</span><span class="s">"p"</span><span class="nt">&gt;</span>)<span class="nt">&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</span></code></pre></figure>
 
-<h3 id="math-type">math type</h3>
-<h4 id="行内">行内</h4>
-<p><script type="math/tex">E=mc^2</script></p>
+<h3 id="数学公式">数学公式</h3>
+<p>行内</p>
 
-<h4 id="行间">行间</h4>
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown">$$E=mc^2$$</code></pre></figure>
 
-<script type="math/tex; mode=display">a_{i}</script>
+<p>行间</p>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown">$$
+a_{i}
+$$</code></pre></figure>
 
 <h3 id="插入图片">插入图片</h3>
-<p><img src=".png" alt="test" title="Title" /></p>
 
-<p><img src=".png" height="100%" width="100%" /></p>
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="p">![</span><span class="nv">test</span><span class="p">](</span><span class="sx">.png</span> <span class="nn">"Title"</span><span class="p">)</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">".png"</span> <span class="na">height=</span><span class="s">"100%"</span> <span class="na">width=</span><span class="s">"100%"</span><span class="nt">&gt;</span></code></pre></figure>
 
 <h3 id="脚注">脚注</h3>
-<p>比如<sup id="fnref:f1"><a href="#fn:f1" class="footnote">1</a></sup></p>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown">比如<span class="p">[</span><span class="nv">^f1</span><span class="p">]</span>
+<span class="p">[</span><span class="ss">^f1</span><span class="p">]:</span> <span class="sx">脚注1</span></code></pre></figure>
 
 <h3 id="测试链接">测试链接</h3>
-<h4 id="第一种">第一种</h4>
-<p><a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a></p>
-<h4 id="第二种">第二种</h4>
-<p><a href="http://www.baidu.com">baidu</a></p>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="p">[</span><span class="nv">Jekyll’s GitHub repo</span><span class="p">][</span><span class="ss">4</span><span class="p">]</span>
+<span class="p">[</span><span class="ss">4</span><span class="p">]:</span>   <span class="sx">https://github.com/jekyll/jekyll</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="p">[</span><span class="nv">baidu</span><span class="p">](</span><span class="sx">http://www.baidu.com</span><span class="p">)</span></code></pre></figure>
 
 <h3 id="参考文献">参考文献</h3>
-
-<p><a href="http://www.cnblogs.com/mo-wang/p/5117819.html">用Markdown写blog的常用操作</a>
+<p><a href="http://jekyllcn.com/">Jekyll 中文文档</a>
+<a href="http://www.cnblogs.com/mo-wang/p/5117819.html">用Markdown写blog的常用操作</a>
 <a href="http://pkuwwt.github.io/linux/2013-12-03-jekyll-using-mathjax/">Jekyll中使用MathJax</a></p>
 
 <!-- 链接 -->
-<!-- 脚注 -->
-<div class="footnotes">
-  <ol>
-    <li id="fn:f1">
-      <p>脚注1&nbsp;<a href="#fnref:f1" class="reversefootnote">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
 
   </section>
 </article>
