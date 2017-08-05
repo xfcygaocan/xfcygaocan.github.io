@@ -1,9 +1,14 @@
 ---
 layout: post
-title: Test Post
+title: 个人博客搭建及使用
 date: 2016-02-15 15:32:24.000000000 +09:00
 ---
+==========================分割线==========================
+## 用Jekyll搭建的Github Pages个人博客
+### 先占坑
 
+==========================分割线==========================
+## 常用命令
 ### 解析器
 添加markdown解析器，在_config.yml里添加
 {% highlight markdown %}
@@ -28,13 +33,13 @@ markdown: kramdown
 {% highlight markdown %}
 {% endhighlight %}
 {% highlight markdown %}
-*****
+***
 {% endhighlight %}
 {% highlight markdown %}
 - - -
 {% endhighlight %}
 {% highlight markdown %}
----------------------------------------
+---
 {% endhighlight %}
 
 ### 引用
@@ -61,11 +66,9 @@ markdown: kramdown
 {% endhighlight %}
 
 ### 插入代码
-{% highlight markdown %}
 {% highlight python %}
 def main():
     print('hello world')
-{% endhighlight %}
 {% endhighlight %}
 
 ### 数学公式
@@ -82,6 +85,7 @@ $$
 {% endhighlight %}
 
 ### 插入图片
+存在渲染慢的问题
 {% highlight markdown %}
 ![test](.png "Title")
 {% endhighlight %}
@@ -95,7 +99,7 @@ $$
 [^f1]: 脚注1
 {% endhighlight %}
 
-### 测试链接
+### 插入链接
 {% highlight markdown %}
 [Jekyll’s GitHub repo][4]
 [4]:   https://github.com/jekyll/jekyll
@@ -104,12 +108,15 @@ $$
 [baidu](http://www.baidu.com)
 {% endhighlight %}
 
-### 参考文献
-[Jekyll 中文文档] [3]
-[用Markdown写blog的常用操作] [1]
-[Jekyll中使用MathJax] [2]
+### Reference
+
+[用Markdown写blog的常用操作][1]  
+[Jekyll中使用MathJax][2]  
+[Jekyll中文文档][3]  
+[用Jekyll搭建的Github Pages个人博客] [4]
 
 <!-- 链接 -->
 [1]: http://www.cnblogs.com/mo-wang/p/5117819.html
 [2]: http://pkuwwt.github.io/linux/2013-12-03-jekyll-using-mathjax/
 [3]: http://jekyllcn.com/
+[4]: http://louisly.com/2016/04/used-jekyll-to-create-my-github-blog/

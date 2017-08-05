@@ -6,17 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <title>post for test</title>
-  <meta name="description" content="You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different wa...">
+  <title>个人博客搭建及使用</title>
+  <meta name="description" content="==========================分割线==========================用Jekyll搭建的Github Pages个人博客先占坑">
   <meta name="author" content="Wei Wang">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="post for test">
-  <meta name="twitter:description" content="You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different wa...">
+  <meta name="twitter:title" content="个人博客搭建及使用">
+  <meta name="twitter:description" content="==========================分割线==========================用Jekyll搭建的Github Pages个人博客先占坑">
 
   <meta property="og:type" content="article">
-  <meta property="og:title" content="post for test">
-  <meta property="og:description" content="You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different wa...">
+  <meta property="og:title" content="个人博客搭建及使用">
+  <meta property="og:description" content="==========================分割线==========================用Jekyll搭建的Github Pages个人博客先占坑">
 
   <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
   <link href="/assets/images/favicon.png" rel="shortcut icon" type="image/png">
@@ -24,7 +24,7 @@
   <link rel="stylesheet" href="/css/main.css">
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
-  <link rel="canonical" href="http://localhost:4000/2016/02/test/">
+  <link rel="canonical" href="http://localhost:4000/2016/02/build-a-blog/">
   <link rel="alternate" type="application/rss+xml" title="xfcygaocan" href="http://localhost:4000/feed.xml">
 
   <meta name="google-site-verification" content="1-1ZlHoRvM0T2FqPbW2S-qLgYXN6rsn52kErlMPd_gw" />
@@ -103,7 +103,7 @@
   
   <!-- Twitter -->
   <li class="navigation__item">
-    <a href="http://twitter.com/xfcygaocan1" title="@xfcygaocan1" target="_blank">
+    <a href="http://twitter.com/xfcygaocan" title="@xfcygaocan" target="_blank">
       <i class='social fa fa-twitter'></i>
       <span class="label">Twitter</span>
     </a>
@@ -159,31 +159,100 @@
     <div class="post-meta">
       <time datetime="2016-02-15 14:32:24 +0800" itemprop="datePublished" class="post-meta__date date">2016-02-15</time> &#8226; <span class="post-meta__tags tags"></span>
     </div>
-    <h1 class="post-title">post for test</h1>
+    <h1 class="post-title">个人博客搭建及使用</h1>
   </header>
 
   <section class="post">
-    <p>You’ll find this post in your <code class="highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+    <p>==========================分割线==========================</p>
+<h2 id="用jekyll搭建的github-pages个人博客">用Jekyll搭建的Github Pages个人博客</h2>
+<h3 id="先占坑">先占坑</h3>
 
-<p>To add new posts, simply add a file in the <code class="highlighter-rouge">_posts</code> directory that follows the convention <code class="highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+<p>==========================分割线==========================</p>
+<h2 id="常用命令">常用命令</h2>
+<h3 id="解析器">解析器</h3>
+<p>添加markdown解析器，在_config.yml里添加</p>
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown">markdown: kramdown</code></pre></figure>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+<h3 id="字体">字体</h3>
 
-<h2 id="aaa">aaa</h2>
-<p><script type="math/tex">a_{i}</script>
-<script type="math/tex">E=mc^2</script> is a inline formula
-<img src=".png" alt="" /></p>
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="gs">**黑体**</span></code></pre></figure>
 
-<p>/2016/02/sample-post/</p>
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="ge">*斜体*</span></code></pre></figure>
 
-<p>Check out the <a href="http://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="nt">&lt;del&gt;</span> 删除体 <span class="nt">&lt;/del&gt;</span></code></pre></figure>
 
+<h3 id="分隔线">分隔线</h3>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="p">* * *</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="p">***</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="p">- - -</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="p">---</span></code></pre></figure>
+
+<h3 id="引用">引用</h3>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="gt">&gt; 这里是引用</span></code></pre></figure>
+
+<h3 id="列表">列表</h3>
+<p>有序列表项前加数字和点（注意前后面要空格）</p>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="p">1.</span> 列表1
+<span class="p">
+2.</span> 列表2</code></pre></figure>
+
+<h3 id="表格">表格</h3>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown">|水果名称|价格（元/500克）|
+|:-------:|-----:|
+|苹果|3.2|
+|香蕉|4.5|</code></pre></figure>
+
+<h3 id="插入代码">插入代码</h3>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">'hello world'</span><span class="p">)</span></code></pre></figure>
+
+<h3 id="数学公式">数学公式</h3>
+<p>行内</p>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown">$$E=mc^2$$</code></pre></figure>
+
+<p>行间</p>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown">$$
+a_{i}
+$$</code></pre></figure>
+
+<h3 id="插入图片">插入图片</h3>
+<p>存在渲染慢的问题</p>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="p">![</span><span class="nv">test</span><span class="p">](</span><span class="sx">.png</span> <span class="nn">"Title"</span><span class="p">)</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">".png"</span> <span class="na">height=</span><span class="s">"100%"</span> <span class="na">width=</span><span class="s">"100%"</span><span class="nt">&gt;</span></code></pre></figure>
+
+<h3 id="脚注">脚注</h3>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown">比如<span class="p">[</span><span class="nv">^f1</span><span class="p">]</span>
+<span class="p">[</span><span class="ss">^f1</span><span class="p">]:</span> <span class="sx">脚注1</span></code></pre></figure>
+
+<h3 id="插入链接">插入链接</h3>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="p">[</span><span class="nv">Jekyll’s GitHub repo</span><span class="p">][</span><span class="ss">4</span><span class="p">]</span>
+<span class="p">[</span><span class="ss">4</span><span class="p">]:</span>   <span class="sx">https://github.com/jekyll/jekyll</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-markdown" data-lang="markdown"><span class="p">[</span><span class="nv">baidu</span><span class="p">](</span><span class="sx">http://www.baidu.com</span><span class="p">)</span></code></pre></figure>
+
+<h3 id="reference">Reference</h3>
+
+<p><a href="http://www.cnblogs.com/mo-wang/p/5117819.html">用Markdown写blog的常用操作</a><br />
+<a href="http://pkuwwt.github.io/linux/2013-12-03-jekyll-using-mathjax/">Jekyll中使用MathJax</a><br />
+<a href="http://jekyllcn.com/">Jekyll中文文档</a><br />
+<a href="http://louisly.com/2016/04/used-jekyll-to-create-my-github-blog/">用Jekyll搭建的Github Pages个人博客</a></p>
+
+<!-- 链接 -->
 
   </section>
 </article>
@@ -193,20 +262,12 @@
    
    <div class="read-more-item">
        <span class="read-more-item-dim">最近的文章</span>
-       <h2 class="post-list__post-title post-title"><a href="/2016/02/Test-Post/" title="link to Test Post">Test Post</a></h2>
-       <p class="excerpt">解析器添加markdown解析器，在_config.yml里添加{% highlight markdown %}markdown: kramdown{% endhighlight %}字体{% highlight markdown %}黑体{% endhighlight %}{% highlight markdown %}斜体{% endhighlight %}{% highlight markdown %} 删除体 {% endhighlight %}分隔线{% highlight ma...&hellip;</p>
-       <div class="post-list__meta"><time datetime="2016-02-15 14:32:24 +0800" class="post-list__meta--date date">2016-02-15</time> &#8226; <span class="post-list__meta--tags tags"></span><a class="btn-border-small" href=/2016/02/Test-Post/>继续阅读</a></div>
-   </div>
-   
-   
-   
-   
-   <div class="read-more-item">
-       <span class="read-more-item-dim">更早的文章</span>
        <h2 class="post-list__post-title post-title"><a href="/2016/02/sample-post/" title="link to Sample Post">Sample Post</a></h2>
        <p class="excerpt">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-r...&hellip;</p>
        <div class="post-list__meta"><time datetime="2016-02-15 14:32:24 +0800" class="post-list__meta--date date">2016-02-15</time> &#8226; <span class="post-list__meta--tags tags"></span><a class="btn-border-small" href=/2016/02/sample-post/>继续阅读</a></div>
    </div>
+   
+   
    
 </section>
 
@@ -216,8 +277,8 @@
     <script>
     
     var disqus_config = function () {
-        this.page.url = "http://localhost:4000/2016/02/test/";
-        this.page.identifier = "/2016/02/test/";
+        this.page.url = "http://localhost:4000/2016/02/build-a-blog/";
+        this.page.identifier = "/2016/02/build-a-blog/";
     };
 
     var disqus_shortname = 'xfcygaocan';
