@@ -85,6 +85,12 @@ a_{i}
 $$
 {% endhighlight %}
 
+{% highlight markdown %}
+```
+E = mc^2
+```
+{% endhighlight %}
+
 ### 插入图片
 存在渲染慢的问题
 {% highlight markdown %}
@@ -114,8 +120,8 @@ $$
 [Jekyll中文文档][3]  
 [Jekyll中使用MathJax][2]  
 [用Markdown写blog的常用操作][1]  
-[48 个你需要知道的 Jekyll 使用技巧] [5]  
-[用Jekyll搭建的Github Pages个人博客] [4]  
+[48 个你需要知道的 Jekyll 使用技巧][5]  
+[用Jekyll搭建的Github Pages个人博客][4]  
 
 <!-- 链接 -->
 [1]: http://www.cnblogs.com/mo-wang/p/5117819.html
@@ -123,4 +129,3 @@ $$
 [3]: http://jekyllcn.com/
 [4]: http://louisly.com/2016/04/used-jekyll-to-create-my-github-blog/
 [5]: https://crispgm.com/page/48-tips-for-jekyll-you-should-know.html
-

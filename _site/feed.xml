@@ -5,8 +5,8 @@
     <description>welcome come to my home.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 06 Aug 2017 03:47:15 +0800</pubDate>
-    <lastBuildDate>Sun, 06 Aug 2017 03:47:15 +0800</lastBuildDate>
+    <pubDate>Sun, 06 Aug 2017 15:52:16 +0800</pubDate>
+    <lastBuildDate>Sun, 06 Aug 2017 15:52:16 +0800</lastBuildDate>
     <generator>Jekyll v3.4.0</generator>
     
       <item>
@@ -163,6 +163,10 @@
 a_{i}
 $$&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;
+E = mc^2
+&lt;span class=&quot;sb&quot;&gt;```&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
 &lt;h3 id=&quot;插入图片&quot;&gt;插入图片&lt;/h3&gt;
 &lt;p&gt;存在渲染慢的问题&lt;/p&gt;
 
@@ -191,7 +195,6 @@ $$&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 &lt;a href=&quot;http://louisly.com/2016/04/used-jekyll-to-create-my-github-blog/&quot;&gt;用Jekyll搭建的Github Pages个人博客&lt;/a&gt;&lt;/p&gt;
 
 &lt;!-- 链接 --&gt;
-
 </description>
         <pubDate>Mon, 15 Feb 2016 14:32:24 +0800</pubDate>
         <link>http://localhost:4000/2016/02/build-a-blog/</link>
