@@ -1,8 +1,8 @@
 # Basic
-title: xfcygaocan
-subtitle: A personal blog
-welcome_message: <a href="https://xfcygaocan.github.io" target="_blank">get to read</a>
-description: welcome come to my home.
+title: xfcygaocan 
+# subtitle: 
+# welcome_message: <a href="https://xfcygaocan.github.io" target="_blank"> aaaa </a>
+# description: 
 # creator: <a href="http://onev.cat">@onevcat</a>
 
 url: "http://xfcygaocan.github.io"
@@ -23,8 +23,7 @@ blog_button:
 
 # Navigation buttons in the front page.
 nav:
-    - {title: Projects, description: My Projects, url: 'http://github.com/xfcygaocan'}
-    # - {title: Another Button, description: A button, url: 'http://example.com'}
+    # - {title: Projects, description: My Projects, url: 'http://github.com/xfcygaocan'}
 
 # Pagination
 gems: [jekyll-paginate]
